@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Car Puchase Form</h1>
+    <form action="http://www.mysever.com" method="Get">
+        <label for="username">Name</label>
+        <input type="text" id="username" name="username" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /> 
+        <br />
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" />
+        <partenrn="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+        <placeholder="123-456-7890" />
+        <br/>
+        <label for="12">Choose a Car:</label>
+        <select id="12" name="car">
+            <option value="sedan">Sedan</option>
+            <option value="suv">SUV</option>
+            <option value="truck">Truck</option>
+            <option value="coupe">Coupe</option>
+            <option value="convertible">Convertible</option>
+        </select>
+        <br />
+        <label for="13">Choose a Color:</label>
+        <select id="13" name="corlor">
+            <option value="đỏ">đỏ</option>
+            <option value="xanh">xanh</option>
+            <option value="vàng">vàng</option>
+            <option value="tím">tím</option>
+            <option value="đen">đen</option>
+        </select>
+        <br />
+        <label for="num">Quantity:</label>
+        <input type="number" id="num" name="number" min="1" max="10" />
+        <br />
+        <label for="date">Delivery Date:</label>
+        <input type="date" id="date" name="date" />
+        
+        <br />
+        <button type="submit">Submit</button>
+    </form>   
+</body>
+</html>
