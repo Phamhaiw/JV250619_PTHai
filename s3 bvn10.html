@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>CatPhoto App</h1>
+    </header>
+    <section>
+        <h2>Cat Photos</h2>
+            <div>
+                 <p>Everyone love <a href="https://www.freecatphotoapp.com">cutecat</a> online!</p>
+                 <br />
+                 <p>See more <a href="https://www.freecatphotoapp.com">cat photos</a> in our gallery</p>
+                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute cat lying on a sofa" width="300" height="300">
+
+            </div>
+        <h2>Cat Lits</h2>
+            <h3>Things cat love:</h3>
+                 <ul>
+                     <li>Catnip</li>
+                     <li>Laser pointers</li>
+                     <li>Lasagna</li>
+                 </ul>
+                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute cat lying on a sofa" width="300" height="300">
+                 <p>Cat <i>love</i> lasagna</p>
+            <h3>Top 3 things cats hate:</h3> 
+                 <ol type="1">
+                     <li>Fleas</li>
+                     <li>Dogs</li>
+                     <li>Other cats</li>
+                 </ol>
+                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute cat lying on a sofa" width="300" height="300">
+                 <p>Cat <i>hate</i> other cats</p>    
+        <h2>Cat Breed</h2>        
+            <table border="1" style="width:50%">
+                <thead>
+                    <tr>
+                        <th>Breed</th>
+                        <th>Origin</th>
+                        <th>Type</th>
+                        <th>Body type</th>
+                        <th>Coat type and lenght</th>
+                        <th>Coat pattern</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                <tr>
+                        <td><a href="/wiki/Abyssinian_cat" title="Abyssinian cat">Abyssinian<sup>[9]</sup></a></td>
+                        <td>Unspecified, but somewhere in Afro-Asia, likely<a href="/wiki/Ethiopia" title="Ethiopia">Ethiopia<sup>[10]</sup></a></td>
+                        <td>Natural</td>
+                        <td>Semi-foreign</td>
+                        <td>Short</td>
+                        <td>Ticked tabby</td>
+                        <td>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/250px-Gustav_chocolate.jpg" alt="Abyssinian cat" width="100" height="100">
+                        </td>
+                    </tr>
+                <tr>
+                        <td><a href="/wiki/Aegean_cat" title="Aegean cat">Aegean</a></td>
+                        <td>Greece</td>
+                        <td>Natural</td>
+                        <td>Moderate</td>
+                        <td>Semi-long</td>
+                        <td>Multi-color</td>
+                        <td>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Aegean_cat.jpg" alt="Abyssinian cat" width="100" height="100">
+                        </td>
+                    </tr>
+                <tr>
+                        <td><a href="/wiki/American_Bobtail" title="American Bobtail">American Bobtail<sup>[11]</sup></a></td>
+                        <td>United States<sup>[10]</sup></td>
+                        <td>Mutation of shortened tail</td>
+                        <td>Cobby</td>
+                        <td>Semi-long</td>
+                        <td>All</td>
+                        <td>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/American_bobtail_2.jpg/800px-American_bobtail_2.jpg" alt="Abyssinian cat" width="100" height="100">
+                        </td>
+                    </tr>
+                <tr>
+                        <td><a href="/wiki/American_Curl" title="American Curl">American Curl<sup>[12]</sup></a></td>
+                        <td>United States<sup>[11]</sup></td>
+                        <td>Mutation</td>
+                        <td>Semi-foreign</td>
+                        <td>Semi-long</td>
+                        <td>All</td>
+                        <td>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/EC_Recknagel_Annakurnikoova_ACS_gs_24.JPG" alt="Abyssinian cat" width="100" height="100">
+                        </td>
+                    </tr>
+                <tr>
+                        <td><a href="/w/index.php?title=American_Ringtail&amp;action=edit&amp;redlink=1"  title="American Ringtail (page does not exist)">American Ringtail</a></td>
+                        <td>United States<sup>[11]</sup></td>
+                        <td>Mutation</td>
+                        <td>Foreign</td>
+                        <td>Semi-long</td>
+                        <td>All</td>
+                        <td>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Chunky_Monkey_American_Ringtail_Cat_3rd_Generation.jpg/1280px-Chunky_Monkey_American_Ringtail_Cat_3rd_Generation.jpg" alt="Abyssinian cat" width="100" height="100">
+                        </td>
+                    </tr>
+                
+            </table>
+    </section>
+    <section>
+        <h2>Cat Form </h2>
+        
+            <form action="/submit-cat-photo" method="post">
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <input type="radio" name="indoor-outdoor" value="indoor" id="indoor" >
+                    <label for="indoor">Indoor</label>
+                    
+                    <input type="radio" name="indoor-outdoor" value="outdoor" id="outdoor" >
+                    <label for="outdoor">Outdoor</label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>What is your cat's personality?</legend>
+                    <input type="checkbox" name="personality" value="loving" id="loving">
+                    <label for="loving">Loving</label>
+
+                    <input type="checkbox" name="personality" value="energetic" id="energetic">
+                    <label for="energetic">energetic</label>
+
+                    <input type="checkbox" name="personality" value="lazy" id="lazy">
+                    <label for="lazy">Lazy</label>
+                </fieldset>
+                <input type="url" name="cat-photo-url" placeholder="cat-photo-url" required>
+                <button type="submit">Submit</button>
+
+            </form>
+            <p>No copyright-<a href="https://portal.rikkei.edu.vn/"><ins>rikkei.edu.vn</ins></a></p>
+    </section>
+
+</body>
+</html>
