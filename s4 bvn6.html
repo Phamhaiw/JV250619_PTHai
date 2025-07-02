@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Lato", sans-serif;
+            }
+
+        .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 100px;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+            }
+        .sidebar a {
+            display: block;
+            color: black;
+            padding: 16px;
+            text-decoration: none;
+            }
+ 
+        .sidebar a.active {
+            background-color: #04AA6D;
+            color: white;
+           }
+
+        .sidebar a:hover:not(.active) {
+            background-color: #13bc0d;
+            color: white;
+       }
+
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+<div class="sidebar" style="width:25%">
+  <a href="#" class="menu">Trang chủ</a>
+  <a href="#" class="menu">Tin tức</a>
+  <a href="#" class="menu">Liên hệ</a>
+  <a href="#" class="menu">Về chúng tôi</a>
+</div>
+
+<!-- Page Content -->
+<div class="content" style="margin-left:25%">
+    <h1>Menu dọc bên trái</h1>
+    <h2>Đây là nội dung chính của trang web.</h2>
+  
+      
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a {
+            background-color: aqua;
+             position: relative;
+             width: 60%;
+             height: 250px;
+             border: solid black 1px;
+        }
+        .b {
+             position: absolute;
+             background-color: rgb(130, 123, 123);
+             width: 100%;
+             height: 250px;
+             inset: 0px;
+             transition: transform 1s ease;
+        }
+        .b:hover{
+            transform:scale(0.8) ;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b">Inset border</div>
+    </div>
+</body>
+</html>
